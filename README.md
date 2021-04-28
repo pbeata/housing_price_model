@@ -7,4 +7,6 @@ _In this project, we use existing housing price data to develop machine learning
 * Completed full data preprocessing by systematically handling all missing values in the raw data set: removed outlier observations (3) and filled all null values with either "0", "None", or a statistical estimate (e.g., mean), depending on the appropriate choice for each feature.
 * Used Scikit-learn to develop regression models using an elastic net model, ridge and lasso regularization, ordinary linear regression, and a random forest regressor 
 * Performed grid search cross validation to find optimal values of hyperparameters
-* Employed lasso regression and achieved mean absolute error (MAE) of $14,191 and RMS error of $20,5554, where the average house price in the data set was $180,815 (relative MAE = 7.8%) 
+* Employed lasso regression and achieved mean absolute error (MAE) of $14,191 and RMS error of $20,554, where the average house price in the data set was $180,815 (relative MAE = 7.8%) 
+
+![](linear_house_model_results.png)
